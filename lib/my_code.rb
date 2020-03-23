@@ -13,10 +13,10 @@ def map(array)
   def reduce(array,starting_value=nil)
 
     if starting_value
-      num = sv
+      sum = sv
       i = 0
     else
-      num1 = array[i]
+      sum = array[i]
       while i < array.length do
       sum = yield(array[i].sum)
         i += 1
