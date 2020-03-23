@@ -9,3 +9,13 @@ def map(array)
     end
    new
   end
+
+  def reduce(array)
+      i = 0
+
+      while i < array.length do
+      yield(sum = array[i].sum)
+        i += 1
+      end
+     sum
+    end
