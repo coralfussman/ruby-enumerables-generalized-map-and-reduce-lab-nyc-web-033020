@@ -9,6 +9,6 @@ def map(source_array,n)
     end
    new
   end
-map 
+map
 
 map([1, 2, 3, -9]){|n| n * n}
