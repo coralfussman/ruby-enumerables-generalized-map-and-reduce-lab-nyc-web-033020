@@ -16,7 +16,8 @@ def map(array)
       sum = sv
       i = 0
     else
-      sum = array[i]
+      sum = array[0]
+        i = 1
       while i < array.length do
       sum = yield(array[i].sum)
         i += 1
