@@ -19,7 +19,7 @@ def map(array)
       sum = array[0]
         i = 1
       while i < array.length do
-      sum = yield(array[i].sum)
+      sum.sum(yield(array[i]))
         i += 1
       end
      sum
