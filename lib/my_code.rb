@@ -14,8 +14,8 @@ def map(array)
       i = 0
 
       while i < array.length do
-      yield(sum = array[i].sum)
+      yield(array[i].sum)
         i += 1
       end
-     sum
+     
     end
