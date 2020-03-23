@@ -24,3 +24,4 @@ def map(array)
       end
      sum
     end
+end
